@@ -1,0 +1,472 @@
+@import url("https://rsms.me/inter/inter.css");
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url(https://assets.bitso.com/static/media/ProximaNova-Light.c9b6afe4.eot);
+  src: url(https://assets.bitso.com/static/media/ProximaNova-Light.48563f4a.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Light.c26a0172.woff)
+      format("woff"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Light.5790de3a.ttf)
+      format("truetype"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Light.f22e2607.svg#ProximaNova-Light)
+      format("svg"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Light.c9b6afe4.eot#iefix)
+      format("embedded-opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url(https://assets.bitso.com/static/media/ProximaNova-Regular.373c9d4a.eot);
+  src: url(https://assets.bitso.com/static/media/ProximaNova-Regular.b6484d9c.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Regular.0013cfb5.woff)
+      format("woff"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Regular.5b9975b7.ttf)
+      format("truetype"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Regular.e54668bb.svg#ProximaNova-Regular)
+      format("svg"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Regular.373c9d4a.eot#iefix)
+      format("embedded-opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url(https://assets.bitso.com/static/media/ProximaNova-RegularIt.fbda1aaf.eot);
+  src: url(https://assets.bitso.com/static/media/ProximaNova-RegularIt.901e87d5.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/ProximaNova-RegularIt.82f2121d.woff)
+      format("woff"),
+    url(https://assets.bitso.com/static/media/ProximaNova-RegularIt.1c159702.ttf)
+      format("truetype"),
+    url(https://assets.bitso.com/static/media/ProximaNova-RegularIt.a927e631.svg#ProximaNova-RegularIt)
+      format("svg"),
+    url(https://assets.bitso.com/static/media/ProximaNova-RegularIt.fbda1aaf.eot#iefix)
+      format("embedded-opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url(https://assets.bitso.com/static/media/ProximaNova-Semibold.6f1f7fe8.eot);
+  src: url(https://assets.bitso.com/static/media/ProximaNova-Semibold.8c8f198a.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Semibold.ef56661f.woff)
+      format("woff"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Semibold.fd67ace1.ttf)
+      format("truetype"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Semibold.3429c4e3.svg#ProximaNova-Semibold)
+      format("svg"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Semibold.6f1f7fe8.eot#iefix)
+      format("embedded-opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url(https://assets.bitso.com/static/media/ProximaNova-Bold.8f03de0a.eot);
+  src: url(https://assets.bitso.com/static/media/ProximaNova-Bold.db3df1d0.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Bold.457c1185.woff)
+      format("woff"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Bold.c7fa1f7f.ttf)
+      format("truetype"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Bold.073ca5c5.svg#ProximaNova-Bold)
+      format("svg"),
+    url(https://assets.bitso.com/static/media/ProximaNova-Bold.8f03de0a.eot#iefix)
+      format("embedded-opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url(https://assets.bitso.com/static/media/OpenSans-Regular-webfont.c8ffdeb3.woff)
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url(https://assets.bitso.com/static/media/OpenSans-Italic-webfont.c2f76529.woff)
+    format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url(https://assets.bitso.com/static/media/OpenSans-Light-webfont.05c88e41.woff)
+    format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url(https://assets.bitso.com/static/media/OpenSans-LightItalic-webfont.bab29d3d.woff)
+    format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url(https://assets.bitso.com/static/media/OpenSans-Semibold-webfont.dc95b864.woff)
+    format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url(https://assets.bitso.com/static/media/OpenSans-SemiboldItalic-webfont.dd862444.woff)
+    format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Bitso;
+  src: url(https://assets.bitso.com/static/media/bitso-thin-webfont.17430792.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitso-thin-webfont.d950fc71.woff)
+      format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Bitso;
+  src: url(https://assets.bitso.com/static/media/bitso-thinitalic-webfont.fe5e5582.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitso-thinitalic-webfont.de18d7cd.woff)
+      format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Bitso;
+  src: url(https://assets.bitso.com/static/media/bitso-light-webfont.32241150.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitso-light-webfont.fe20fad7.woff)
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Bitso;
+  src: url(https://assets.bitso.com/static/media/bitso-lightitalic-webfont.6593276f.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitso-lightitalic-webfont.4fa2569a.woff)
+      format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Bitso;
+  src: url(https://assets.bitso.com/static/media/bitso-regular-webfont.580e3b06.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitso-regular-webfont.243dafa9.woff)
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Bitso;
+  src: url(https://assets.bitso.com/static/media/bitso-regularitalic-webfont.cc8f7634.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitso-regularitalic-webfont.3b37f4d5.woff)
+      format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Bitso;
+  src: url(https://assets.bitso.com/static/media/bitso-bold-webfont.2793358d.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitso-bold-webfont.4308fb38.woff)
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Bitso;
+  src: url(https://assets.bitso.com/static/media/bitso-bolditalic-webfont.9a1c0193.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitso-bolditalic-webfont.9f3038bd.woff)
+      format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Bitso;
+  src: url(https://assets.bitso.com/static/media/bitso-black-webfont.f224be15.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitso-black-webfont.6347cb88.woff)
+      format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Bitso;
+  src: url(https://assets.bitso.com/static/media/bitso-blackitalic-webfont.3649226b.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitso-blackitalic-webfont.be102685.woff)
+      format("woff");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Bitso-Alternate;
+  src: url(https://assets.bitso.com/static/media/bitsoalternate-thin-webfont.e93f3071.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitsoalternate-thin-webfont.e58d7117.woff)
+      format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Bitso-Alternate;
+  src: url(https://assets.bitso.com/static/media/bitsoalternate-thinitalic-webfont.083d6e95.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitsoalternate-thinitalic-webfont.4f9b5bb5.woff)
+      format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Bitso-Alternate;
+  src: url(https://assets.bitso.com/static/media/bitsoalternate-light-webfont.26d8bd8e.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitsoalternate-light-webfont.d918b76f.woff)
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Bitso-Alternate;
+  src: url(https://assets.bitso.com/static/media/bitsoalternate-lightitalic-webfont.4fcc8b91.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitsoalternate-lightitalic-webfont.bc579a8a.woff)
+      format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Bitso-Alternate;
+  src: url(https://assets.bitso.com/static/media/bitsoalternate-regular-webfont.8e2d77b5.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitsoalternate-regular-webfont.d956ae10.woff)
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Bitso-Alternate;
+  src: url(https://assets.bitso.com/static/media/bitsoalternate-regularitalic-webfont.a33c37f1.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitsoalternate-regularitalic-webfont.19b6f261.woff)
+      format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Bitso-Alternate;
+  src: url(https://assets.bitso.com/static/media/bitsoalternate-bold-webfont.417bc4be.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitsoalternate-bold-webfont.5116d6c8.woff)
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Bitso-Alternate;
+  src: url(https://assets.bitso.com/static/media/bitsoalternate-bolditalic-webfont.eb0ffa1f.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitsoalternate-bolditalic-webfont.a1c66ec3.woff)
+      format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Bitso-Alternate;
+  src: url(https://assets.bitso.com/static/media/bitsoalternate-black-webfont.9822c5db.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitsoalternate-black-webfont.8331d7a0.woff)
+      format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Bitso-Alternate;
+  src: url(https://assets.bitso.com/static/media/bitsoalternate-blackitalic-webfont.7a65b234.woff2)
+      format("woff2"),
+    url(https://assets.bitso.com/static/media/bitsoalternate-blackitalic-webfont.05a9cfff.woff)
+      format("woff");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #4ebc42;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  font-family: Bitso, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Noto Color Emoji;
+}
+
+.jBOVOn {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 48px;
+  transition: all 0.2s ease-in-out 0s, background 0s ease 0s;
+  border-radius: 8px;
+  z-index: 1;
+  background: rgb(255, 255, 255);
+}
+
+.hcHBCY:placeholder-shown {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(74, 87, 96);
+}
+
+.hcHBCY {
+  appearance: none;
+  height: 48px;
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  transition: all 0.2s ease-in-out 0s, border 0s ease 0s, color 0s ease 0s;
+  background: transparent;
+  position: relative;
+  z-index: 2;
+  font-family: Bitso, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  color: rgb(25, 30, 35);
+  border: 1px solid rgb(209, 216, 223);
+}
+.input {
+  position: relative;
+  border-bottom: 1px solid #f0f0f0;
+  display: inline-block;
+  width: 100%;
+}
+
+.input__field,
+.input__label {
+  font-size: 16px;
+}
+
+.input__field {
+  outline: none;
+  border: 2px solid rgb(185, 185, 185);
+  border-radius: 10px;
+  width: 100%;
+  height: 30px;
+  padding: 8px 0;
+  padding-left: 20px;
+  background: transparent;
+}
+.input__field:focus {
+  border: 2px solid rgb(5, 172, 80);
+}
+.input__label {
+  position: absolute;
+  bottom: 15px; /* la distancia entre el label y el borde inferior del input cuando el input no está enfocado */
+  left: 20px;
+  pointer-events: none; /* para que el label no evite que el usuario haga clic en el input */
+  transition: 0.3s ease; /* animación suave */
+  background: white;
+}
+
+.input__field:valid + .input__label,
+.input__field:focus + .input__label {
+  transform: translateY(
+    -155%
+  ); /* mover el label hacia arriba cuando el input está enfocado o tiene texto */
+  font-size: 14px; /* reducir el tamaño del label */
+}
